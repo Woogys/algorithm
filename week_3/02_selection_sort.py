@@ -10,6 +10,7 @@ def selection_sort(array):
             if array[i + j] < array[min_index]:
                 min_index = i + j
         array[i], array[min_index] = array[min_index], array[i]
+    return
 
 
 selection_sort(input)
