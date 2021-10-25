@@ -35,6 +35,7 @@ class Queue:
     def is_empty(self):
         return self.head is None
 
+
 queue = Queue()
 queue.enqueue(3)
 print(queue.peek())
